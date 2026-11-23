@@ -120,3 +120,4 @@ U303,omitted from improved BOM
 U300,omitted from improved BOM
 P480,case clearance
 U480,omitted from improved BOM
+J1,Optional alternate USB header; omitted because J40 USB Type-B will be used

@@ -10,7 +10,7 @@ Use these three files (download the original Gerber archive from the linked sour
 2. `JLC_BOM_FULL_ASSEMBLY.csv` — edited assembly BOM
 3. `JLC_CPL_FULL_ASSEMBLY.csv` — edited matching placements
 
-**Validation:** 419 unique BOM designators = 419 unique CPL designators. 121 original CPL positions omitted because they are not populated in this manufacturing profile. See `UNPOPULATED_POSITION_AUDIT.csv`. **No PCB copper/drill changes.**
+**Validation:** 418 unique BOM designators = 418 unique CPL designators. 122 original CPL positions omitted because they are not populated in this manufacturing profile. See `UNPOPULATED_POSITION_AUDIT.csv`. **No PCB copper/drill changes.**
 
 ## Decisions
 
@@ -20,7 +20,8 @@ Use these three files (download the original Gerber archive from the linked sour
 - Other circuits omitted by the improved BOM (including U103/U480/U300/U303/D40/D41/D44/Q7–Q9/R72) remain unpopulated. Do **not** restore indiscriminately.
 - F3–F6: correct original text typo `Fuse-16A` to **1.6 A**, preserving exact manufacturer part `36911600000`; use LCSC C3165187 (not the wrong 10 A auto-match).
 - Q5/Q6/Q10: enforce exact original ST `VND14NV04TR-E` rather than automatically matched VND7NV04.
-- Add **J1** JST B5B-EH-A(LF)(SN) C160256 and **P1** TE 284617-1 C499121 for an attempt at full JLCPCB through-hole assembly; P1 is verified in the Rev C frame BOM. JLCPCB must individually approve 154-pin connector soldering and placement.
+- **J1 deliberately unpopulated:** its optional USB pin header is unnecessary when using the installed **J40 USB Type-B** connector. The J1 copper footprint is left in the Gerbers; do not select a component for it.
+- Add **P1** TE 284617-1 C499121 for an attempt at full JLCPCB through-hole assembly; P1 is verified in the Rev C frame BOM. JLCPCB must individually approve 154-pin connector soldering and placement.
 - Add missing **U490/U491** Nexperia `74HC2G17GW/C4125` C3754951 (digital input buffer issue [#131](https://github.com/rusefi/hellen154hyundai/issues/131)).
 - Q1–Q4: onsemi `ISL9V3040D3ST-F085C` C603080, same-package automotive variant of source design. Change CPL orientation **180° → 0°** per documented [Rev C rotation issue #105](https://github.com/rusefi/hellen154hyundai/issues/105). Confirm against tab/pinout and JLC placement preview before ordering. Other polarities not certified.
 
