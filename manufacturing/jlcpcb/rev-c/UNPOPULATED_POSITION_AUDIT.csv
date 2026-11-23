@@ -1,0 +1,122 @@
+Designator,Reason
+D40,Not populated in upstream improved BOM; do not automatically restore
+D41,Not populated in upstream improved BOM; do not automatically restore
+D44,Not populated in upstream improved BOM; do not automatically restore
+F2,Bare pad/logo/test artwork; not a component
+G1,Bare pad/logo/test artwork; not a component
+G2,Bare pad/logo/test artwork; not a component
+G3,Bare pad/logo/test artwork; not a component
+G4,Bare pad/logo/test artwork; not a component
+G5,Bare pad/logo/test artwork; not a component
+G6,Bare pad/logo/test artwork; not a component
+G7,Bare pad/logo/test artwork; not a component
+G8,Bare pad/logo/test artwork; not a component
+G9,Bare pad/logo/test artwork; not a component
+G10,Bare pad/logo/test artwork; not a component
+J3,SD breakout omitted
+J25,knock audio connector omitted
+J39,omitted as unneeded by upstream
+P2,Bare pad/logo/test artwork; not a component
+P3,Bare pad/logo/test artwork; not a component
+P4,Bare pad/logo/test artwork; not a component
+P5,Bare pad/logo/test artwork; not a component
+P6,Bare pad/logo/test artwork; not a component
+P7,Bare pad/logo/test artwork; not a component
+P8,Bare pad/logo/test artwork; not a component
+P9,Bare pad/logo/test artwork; not a component
+P10,Bare pad/logo/test artwork; not a component
+P11,Bare pad/logo/test artwork; not a component
+P12,Bare pad/logo/test artwork; not a component
+P13,Bare pad/logo/test artwork; not a component
+P14,Bare pad/logo/test artwork; not a component
+P15,Bare pad/logo/test artwork; not a component
+P16,Bare pad/logo/test artwork; not a component
+P17,Bare pad/logo/test artwork; not a component
+P18,Bare pad/logo/test artwork; not a component
+P19,Bare pad/logo/test artwork; not a component
+P20,Bare pad/logo/test artwork; not a component
+P21,Bare pad/logo/test artwork; not a component
+P22,Bare pad/logo/test artwork; not a component
+P23,Bare pad/logo/test artwork; not a component
+P24,Bare pad/logo/test artwork; not a component
+P25,Bare pad/logo/test artwork; not a component
+P26,Bare pad/logo/test artwork; not a component
+P27,Bare pad/logo/test artwork; not a component
+P28,Bare pad/logo/test artwork; not a component
+P29,Bare pad/logo/test artwork; not a component
+P30,Bare pad/logo/test artwork; not a component
+P31,Bare pad/logo/test artwork; not a component
+P32,Bare pad/logo/test artwork; not a component
+P33,Bare pad/logo/test artwork; not a component
+P34,Bare pad/logo/test artwork; not a component
+P35,Bare pad/logo/test artwork; not a component
+P36,Bare pad/logo/test artwork; not a component
+P37,Bare pad/logo/test artwork; not a component
+P38,Bare pad/logo/test artwork; not a component
+P39,Bare pad/logo/test artwork; not a component
+P40,Bare pad/logo/test artwork; not a component
+P41,Bare pad/logo/test artwork; not a component
+P42,Bare pad/logo/test artwork; not a component
+P43,Bare pad/logo/test artwork; not a component
+P44,Bare pad/logo/test artwork; not a component
+P45,Bare pad/logo/test artwork; not a component
+P46,Bare pad/logo/test artwork; not a component
+P47,Bare pad/logo/test artwork; not a component
+P48,Bare pad/logo/test artwork; not a component
+P49,Bare pad/logo/test artwork; not a component
+P50,Bare pad/logo/test artwork; not a component
+P51,Bare pad/logo/test artwork; not a component
+P52,Bare pad/logo/test artwork; not a component
+P53,Bare pad/logo/test artwork; not a component
+P54,Bare pad/logo/test artwork; not a component
+P55,Bare pad/logo/test artwork; not a component
+P56,Bare pad/logo/test artwork; not a component
+P57,Bare pad/logo/test artwork; not a component
+P58,Bare pad/logo/test artwork; not a component
+P59,Bare pad/logo/test artwork; not a component
+P60,Bare pad/logo/test artwork; not a component
+P61,Bare pad/logo/test artwork; not a component
+P62,Bare pad/logo/test artwork; not a component
+P63,Bare pad/logo/test artwork; not a component
+P64,Bare pad/logo/test artwork; not a component
+P65,Bare pad/logo/test artwork; not a component
+P66,Bare pad/logo/test artwork; not a component
+P67,Bare pad/logo/test artwork; not a component
+P68,Bare pad/logo/test artwork; not a component
+P69,Bare pad/logo/test artwork; not a component
+P70,Bare pad/logo/test artwork; not a component
+P71,Bare pad/logo/test artwork; not a component
+P72,Bare pad/logo/test artwork; not a component
+P73,Bare pad/logo/test artwork; not a component
+P74,Bare pad/logo/test artwork; not a component
+P75,Bare pad/logo/test artwork; not a component
+P85,Bare pad/logo/test artwork; not a component
+P86,Bare pad/logo/test artwork; not a component
+P87,Bare pad/logo/test artwork; not a component
+Q7,Not populated in upstream improved BOM; do not automatically restore
+Q8,Not populated in upstream improved BOM; do not automatically restore
+Q9,Not populated in upstream improved BOM; do not automatically restore
+R10,DNP in original improved BOM
+R11,DNP in original improved BOM
+R14,DNP in original improved BOM
+R15,DNP in original improved BOM
+R18,DNP in original improved BOM
+R19,DNP in original improved BOM
+R41,Bare pad/logo/test artwork; not a component
+R65,DNP in original improved BOM
+R66,DNP in original improved BOM
+R67,DNP in original improved BOM
+R68,DNP in original improved BOM
+R72,Not populated in upstream improved BOM; do not automatically restore
+U1,accelerometer not used in upstream production
+U5,alternate regulator / DNP footprint
+R131,removed BOOT1 link per bom_replace
+J101,"programming/test PCB contact, no part"
+R105,removed +5V SPI pull-up per bom_replace
+R103,removed +5V SPI pull-up per bom_replace
+U103,omitted from improved BOM
+R309,removed +5V/VCC_PP1 link per bom_replace
+U303,omitted from improved BOM
+U300,omitted from improved BOM
+P480,case clearance
+U480,omitted from improved BOM

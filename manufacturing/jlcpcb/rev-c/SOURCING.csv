@@ -1,0 +1,15 @@
+Priority,Designators,Qty per ECU,Exact part,Preferred LCSC code,Recommended action,Reason
+High,P1,1,TE 284617-1,C499121,Global sourcing + THT engineering approval,154-pin main harness connector
+High,J1,1,JST B5B-EH-A(LF)(SN),C160256,Pre-order / THT approval,5-pin 2.5mm vertical header
+High,Q1 Q2 Q3 Q4,4,ISL9V3040D3ST-F085C,C603080,Pre-order if short + rotation review,Ignition IGBTs
+High,U490 U491,2,74HC2G17GW/C4125,C3754951,Pre-order,Schmitt buffers for flex-fuel digital input
+High,F3 F4 F5 F6,4,Littelfuse 36911600000 1.6A,C3165187,Pre-order if short,Do not accept automatic 10A substitution
+High,Q300 Q301 Q302 Q303 Q304 Q313 Q314,7,PJM2319PSA,C411720,Pre-order,Reported shortfall in user's JLC quote
+High,U4,1,LPS22HBTR,C94049,Pre-order,Pressure sensor shortfall
+High,Q305 Q306 Q307 Q308 Q309 Q310 Q311 Q312,8,NCV8440ASTT3G,C604063,Pre-order if short,Developer documented low-side substitution
+Medium,L420,1,LBC3225T2R2MR,C223413,Pre-order if short,Upstream specified inductor
+Medium,R7 R16 R76,3,RCML08W203JT,C507417,Pre-order,Resistor-array shortage
+Medium,D3 D28 D29 D30 D105,5,19-217/BHC-ZL1M2RY/3T,C72041,Pre-order,Blue status LED shortage
+Low,D106,1,19-213/Y2C-CQ2R2L/3T(CY),C72038,Pre-order,Yellow status LED shortage
+Medium,BT1,1,CR2032-BS-6-1,C70377,Confirm selection,Prior report showed zero placement
+Medium,S1 S2,2,SKRKAEE020,C115357,Confirm selection,Prior report showed zero placement
